@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +10,10 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   color: #1d1d1d;
+}
+
+p {
+  font-weight: 300;
 }
 
 main {
@@ -33,6 +39,7 @@ h4 {
 section {
   border: 2px solid #999;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .primary-color {
@@ -52,9 +59,11 @@ section {
   background: #efd9ca;
 }
 
-.color-container {
+.color-container,
+.font-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .color-box {
@@ -68,4 +77,38 @@ section {
   border: 1px dashed black;
   color: black;
   padding: 5px;
+}
+
+.font-box {
+  margin-bottom: 2rem;
+  width: 45%;
+}
+
+.font-box h4 {
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+}
+
+.font-box p {
+  margin-bottom: 0.5rem;
+}
+
+.font-box .bold {
+  font-weight: bold;
+}
+
+.font-box .italic {
+  font-style: italic;
+}
+
+.source-code {
+  font-family: "Source Code Pro", monospace;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
