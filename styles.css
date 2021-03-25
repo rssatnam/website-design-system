@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+main {
+  max-width: 990px;
+  margin: 1rem auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  border: 2px solid #999;
+  padding: 1rem;
+}
+
+.primary-color {
+  background: #2d5dcc;
+  color: white;
+}
+
+.secondary-color {
+  background: #d97d9d;
+}
+
+.button-color {
+  background: #4fe0b0;
+}
+
+.bg-color {
+  background: #efd9ca;
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-box {
+  padding: 1rem;
+  text-align: center;
+  width: 24%;
+}
+
+.color-box p {
+  background: white;
+  border: 1px dashed black;
+  color: black;
+  padding: 5px;
+}
